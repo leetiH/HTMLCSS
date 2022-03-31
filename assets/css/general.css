@@ -7,3 +7,6 @@ a{
 a:visited{
     color:rgb(212, 155, 84);
 }
+*:empty{
+    background-color: red;
+}
