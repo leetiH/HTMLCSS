@@ -26,7 +26,8 @@ nav ul li a {
     background-size: 30px;
     color: rgb(212, 155, 84);
     size: 28px;
-    width: 25px;font-size: 0.7rem;
+    width: 25px;
+    font-size: 0.7rem;
     text-align: center;
     height: 30px;
     line-height: 30px;
@@ -79,6 +80,23 @@ h2, h3, h4, h5, h6{
     margin-bottom: 5px;
     margin-left: 5px;
 
+}
+.myDiv > button{
+    background-color: rgb(113, 43, 117);
+    margin: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(212, 155, 84);
+}
+.myDiv > input{
+    background-color:  rgb(113, 43, 117);
+    margin: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(212, 155, 84);
+}
+.myDiv > label{
+    margin: 10px;
 }
 .footerOnTheWay ul li a :hover{
     color: rgb(199, 75, 80);
