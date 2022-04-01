@@ -60,8 +60,7 @@ h2, h3, h4, h5, h6{
     border: 2px solid;
     border-color: rgb(199, 75, 80);
     border-radius: 5px;
-    width: 90%;
-    height: 90%;
+    margin-right: 20px;
     margin-bottom: 25px;
     background-color: rgb(199, 75, 80,0.2);
     margin-left: 5%;
@@ -94,11 +93,98 @@ h2, h3, h4, h5, h6{
     font-size: 1rem;
     padding: 5px;
     color: rgb(212, 155, 84);
+    border: 2px solid rgb(212, 155, 84);
+}
+.myDiv > input:checked{
+	appearance: none;   
+    border: 2px solid rgb(212, 155, 84);
+	background-clip: content-box;
+    color: rgb(212, 155, 84);
+    background-color: rgb(199, 75, 80);
+    height: 20px;
+    width: 20px;
+	margin-bottom: 0px;
+    padding: 0px;
+}
+.myDiv > input[type=checkbox], input[type=radio]{
+	appearance: none;
+    border: 2px solid rgb(212, 155, 84);
+	background-clip: content-box;
+    color: rgb(212, 155, 84);
+    height: 20px;
+    width: 20px;
+	margin-bottom: 0px;
 }
 .myDiv > label{
     margin: 10px;
 }
+.myDiv > input[type=range]{
+    background-color: rgb(199, 75, 80);
+}
+.myDiv > textarea{
+    background-color: rgb(113, 43, 117);
+    margin: 15px;
+    color: rgb(212, 155, 84);
+    border: 2px solid rgb(212, 155, 84);
+    height: 70%;
+    width: 90%;
+}
+section.layoutTable table tr td{
+    border: 1px solid rgb(212, 155, 84);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(113, 43, 117);
+    margin: 30%;
+}
+section.layoutTable table{
+    width: 100%;
+    height: 350px;
+}
+.littleTable table tr td{
+    border: 1px solid rgb(212, 155, 84);
+    width: 5px;
+    height: 5px;
+    background-color: rgb(70, 36, 76);
+    margin: 30%;
+}
+.littleTable table{
+    width: 50%;
+    height: 50%;
+}
 .footerOnTheWay ul li a :hover{
     color: rgb(199, 75, 80);
     font-size: 12px;
+    margin: 10px;
 }
+/* 
+    <576px x-small
+    >=576px small
+    >= 768px médium
+    >= 992px large 
+    >= 1200px extra-large
+    >= 1400px xx-larg
+ */
+ /* smartphone */
+/* @media (max-width:376px){
+    body{
+        background-color:purple;
+    }   
+} */
+/* smart landscape & tablet */
+/* @media (max-width:577px) and (max-width:768px){
+    body{
+        background-color:magenta;
+    }   
+} */
+/* tablet landscape & small pc */
+/* @media (max-width:769px) and (max-width:992px){
+    body{
+        background-color:blue;
+    }   
+} */
+/* other pc, tv, giant screen */
+/* @media (min-width:993px){
+    body{
+        background-color:green;
+    }   
+} */
